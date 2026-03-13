@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Almora, My Virtual Assistant</title>
+  <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Logo and Heading -->
+  <img src="logo.jpg" alt="logo" id="logo">
+  <h1>I'm <span id="name">Almora</span>, Your <span id="va">Virtual Assistant</span></h1>
+
+  <!-- Voice animation (hidden until speaking) -->
+  <img src="voice.gif" alt="voice" id="voiceGif" style="display:none;">
+
+  <!-- Mic button -->
+  <button id="btn">
+    <img src="mic.svg" alt="mic">
+    <span id="content">Click here and TALK</span>
+  </button>
+
+  <!-- Chat container -->
+  <div id="chat-container">
+    <!-- Messages will appear here -->
+    <div id="messages"></div> 
+
+    <!-- Input box + send -->
+    <div id="chat">
+      <textarea id="userInput" placeholder="Type your message..."></textarea>
+      <button id="send">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
