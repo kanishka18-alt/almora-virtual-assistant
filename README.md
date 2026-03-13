@@ -19,9 +19,9 @@ It can answer queries, perform quick commands, and fetch relevant information fr
 - dotenv
 
 ## Project Structure
-public/ - Static assets 
-src/ - Frontend application 
-server/ - Backend API and server code
+server/ – Backend server and API routes  
+src/ – Frontend application code  
+public/ – Static assets  
 
 ## Environment Variables
 Create a `.env` file in the root directory and add the following:
